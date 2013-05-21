@@ -1,5 +1,9 @@
 var casper,url,list,i,table;
-casper = require('casper').create();
+casper = require('casper').create({
+  clientScripts: ["js/jquery.min.js"]
+});
+
+
 url = "http://www.coedobrewery.com/blog/shoplist/";
 
 
@@ -13,9 +17,13 @@ casper.start(url,function(){
 
 casper.then(function(){
   console.log("start");
+  console.log(this.evaluate(function() {
+    return $().jquery;
+  }));
   for(i=0;i<list.length;i++){
     table = this.getHTML(list[i].selector);
     this.echo(table);
+
   }
 
 });
