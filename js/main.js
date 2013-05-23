@@ -5,16 +5,6 @@ casper = require('casper').create({
 fs = require('fs');
 
 url = "http://www.coedobrewery.com/blog/shoplist/";
-function toArray(list) {
-  var i, array = [];
-  for  (i=0; i<list.length;i++) {array[i] = list[i];}
-  return array;
-}
-
-list = [
-  {"prefecture":"北海道","selector": "table#sorter32.sortable tbody tr:nth-child(2)" },
-  {"prefecture":"青森","selector": "table#sorter58.sortable tbody tr:nth-child(2)"}
-];
 
 casper.start(url,function(){
   console.log(this.getTitle());
