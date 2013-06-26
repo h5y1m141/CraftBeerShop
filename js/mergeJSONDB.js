@@ -16,7 +16,8 @@ result = _.groupBy(mergeList,function(data){
   return data.phone_number;
 });
 
-fs.writeFileSync("js/mergeDataWithGeocode.json", JSON.stringify(result));
+fs.writeFileSync("js/mergeDataWithGeocode.json", JSON.stringify(mergeList));
+
 // お店の電話番号にてグルーピングすることで、重複したデータが算出できる
 
 for(var i in result){
