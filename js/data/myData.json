@@ -1,0 +1,254 @@
+[{
+  "webSite":"http://toyamakan.jp/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "name":"いきいき富山館",
+  "phone_number":"03-3231-5032",
+  "address":"千代田区有楽町2-10-1",
+  "latitude":"35.674989",
+  "longitude":"139.764364"
+},{
+  "webSite":"http://www.tre-frecce.co.jp/enoteca-alice/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "name":"エノテカ・アリーチェ",
+  "phone_number":"03-5848-9814",
+  "address":"練馬区中村北1-2-4",
+  "latitude":"35.736196",
+  "longitude":"139.648825"
+},{
+  "webSite":"http://tanakaya.cognacfan.com/",
+  "sourceOfInformation":"クラフトビール東京",
+  "state":"東京都",
+  "shopFlg":true,
+  "name":"目白田中屋",
+  "phone_number":"03-3953-8888",
+  "address":"豊島区目白3-4-14",
+  "latitude":"35.721676",
+  "longitude":"139.706214"
+},{
+  "webSite":null,
+  "sourceOfInformation":"",
+  "state":"千葉県",
+  "shopFlg":false,
+  "name":"クラスター （CLUSTER）",
+  "phone_number":"04-7115-6528",
+  "address":"柏市明原4-5-1",
+  "latitude":"35.866168",
+  "longitude":"139.960085"
+},{
+  "webSite":"http://marunimocco.com/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":false,
+  "name":"千歳船橋バル　marunimocco",
+  "phone_number":"03-6413-7317",
+  "address":"世田谷区船橋1-9-20",
+  "latitude":"35.648255",
+  "longitude":"139.623825"
+},{
+  "webSite":"http://www.tokyoliquorland.co.jp/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "name":"東京リカーランド",
+  "phone_number":"03-3882-2508",
+  "address":"足立区千住旭町40-22",
+  "latitude":"35.749443",
+  "longitude":"139.807472"
+},{
+  "name":"リカーズハセガワ北口店",
+  "webSite":"http://www.yaechika.com/shop_detail/sp036/sp036.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3271-4085",
+  "address":"中央区八重洲2-1",
+  "latitude":"35.679869",
+  "longitude":"139.769608"
+
+},{
+  "name":"リカーズハセガワ本店",
+  "webSite":"http://www.liquors-hasegawa.com/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3271-8747",
+  "address":"中央区八重洲2-1",
+  "latitude":"35.679869",
+  "longitude":"139.769608"
+},{
+  "name":"大丸東京店",
+  "webSite":null,
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-6895-2810",
+  "address":"千代田区丸ノ内1-9-1",
+  "latitude":"35.681788",
+  "longitude":"139.766761"
+},{
+  "name":"小室商店荏原店",
+  "webSite":"http://www.sake-no-komuro.co.jp/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3781-7895",
+  "address":"品川区中延5-9-13",
+  "latitude":"35.602398",
+  "longitude":"139.708055"
+},{
+  "name":"北野エース　グランディオ 蒲田店",
+  "webSite":"http://www.ace-group.co.jp/html/03_store/details/?cate=182&bseq=97",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-5713-6152",
+  "address":"大田区西蒲田7-68-1",
+  "latitude":"35.562273",
+  "longitude":"139.715362"
+},{
+  "name":"北野エース　東京スカイツリータウン ソラマチ店",
+  "webSite":"http://www.ace-group.co.jp/html/03_store/details/?cate=182&bseq=96",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-5608-1757",
+  "address":"墨田区押上1-1-2",
+  "latitude":"35.710033",
+  "longitude":"139.810716"
+},{
+  "name":"北野エース パルコ調布店",
+  "webSite":"http://www.ace-group.co.jp/html/03_store/details/?cate=182&bseq=93",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"042-490-2330",
+  "address":"調布市小島町1-38-1",
+  "latitude":"35.653022",
+  "longitude":"139.543685"
+},{
+  "name":"北野エース 松屋浅草店",
+  "webSite":"http://www.ace-group.co.jp/html/03_store/details/?cate=182&bseq=92",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3842-1370",
+  "address":"台東区花川戸1-4-1",
+  "latitude":"35.712038",
+  "longitude":"139.798475"
+},{
+  "name":"北野エース　小岩店",
+  "webSite":"http://www.ace-group.co.jp/html/03_store/details/?cate=182&bseq=88",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-5612-1501",
+  "address":"江戸川区南小岩7-24-15",
+  "latitude":"35.732971",
+  "longitude":"139.881688"
+},{
+  "name":"リカースタジオ・清水屋",
+  "webSite":"http://www.shimizu-ya.com/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3901-3732",
+  "address":"北区赤羽1-42-11",
+  "latitude":"35.78195",
+  "longitude":"139.720106"
+},{
+  "name":"佐藤商店",
+  "webSite":"http://www2.ocn.ne.jp/~satosake/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"042-383-1011",
+  "address":"小金井市東町4-31-9",
+  "latitude":"35.699452",
+  "longitude":"139.52444"
+},{
+  "name":"信濃屋食品 ワイン館",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/winekan.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3412-2418",
+  "address":"世田谷区代田1-42-1",
+  "latitude":"35.654169",
+  "longitude":"139.662852"
+},{
+  "name":"信濃屋食品 銀座店",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/ginza.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3571-3315",
+  "address":"中央区銀座8-6-22",
+  "latitude":"35.668906",
+  "longitude":"139.760834"
+},{
+  "name":"信濃屋食品 銀座アネックス店",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/ginza_a.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3571-7006",
+  "address":"中央区銀座7-6-6",
+  "latitude":"35.669606",
+  "longitude":"139.76179"
+},{
+  "name":"信濃屋食品 目黒店",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/meguro.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3493-0143",
+  "address":"品川区上大崎2-21-13",
+  "latitude":"35.637489",
+  "longitude":"139.714039"
+},{
+  "name":"信濃屋食品 新橋店",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/shinbashi.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-3501-0477",
+  "address":"港区新橋3-7-4",
+  "latitude":"35.665637",
+  "longitude":"139.755032"
+},{
+  "name":"信濃屋食品 道玄坂店",
+  "webSite":"http://www.shinanoya.co.jp/shop/shop_detail/dougenzaka.html",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-5459-4782",
+  "address":"渋谷区道玄坂1-19-11",
+  "latitude":"35.656983",
+  "longitude":"139.696032"
+},{
+  "name":"美酒の三河屋",
+  "webSite":"http://www.j-sake.jp/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"042-622-3143",
+  "address":"八王子市暁町1-3-26",
+  "latitude":"35.66762",
+  "longitude":"139.337804"
+},{
+  "name":"伊豆屋商店",
+  "webSite":"http://ameblo.jp/s-izuya/",
+  "sourceOfInformation":"管理人調べ",
+  "state":"東京都",
+  "shopFlg":true,
+  "phone_number":"03-5749-1545",
+  "address":"品川区中延5-3-8",
+  "latitude":"35.603496",
+  "longitude":"139.708496"
+}
+
+]
