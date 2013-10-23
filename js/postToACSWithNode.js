@@ -22,32 +22,45 @@ loginOptions = {
   }
 };
 
-jsondb = JSON.parse(fs.readFileSync("js/minohWithGeocode.json"));
+jsondb = JSON.parse(fs.readFileSync("js/data/2013-10-24-shopData.json"));
 
 
 // Test用に１件だけ登録するための処理
-  // postdata = qs.stringify({
-  //   name      :jsondb[10].name,
-  //   state     :jsondb[10].state,
-  //   phone_number:jsondb[10].phone_number,
-  //   latitude  :jsondb[10].latitude,
-  //   longitude :jsondb[10].longitude,
-  //   address   :jsondb[10].address
-  // });
-  // postToACS(postdata);
+// var i = 9;
+
+// postdata = qs.stringify({
+//     name      :jsondb[i].name,
+//     state     :jsondb[i].state,
+//   custom_fields_shopFlg:jsondb[i].shopFlg,
+//     phone_number:jsondb[i].phone_number,
+//     latitude  :jsondb[i].latitude,
+//     longitude :jsondb[i].longitude,
+//     address   :jsondb[i].address
+// });
+
+// console.log(postdata);
+// postToACS(postdata);
 
 
-for(var i=0;i<jsondb.length;i++){
-  postdata = qs.stringify({
-    name      :jsondb[i].name,
-    state     :jsondb[i].state,
-    phone_number:jsondb[i].phone_number,
-    latitude  :jsondb[i].latitude,
-    longitude :jsondb[i].longitude,
-    address   :jsondb[i].address
-  });
-  postToACS(postdata);
-}
+  for(var i=0;i<jsondb.length;i++){
+    console.log(jsondb[i].latitude + "and " +jsondb[i].longitude);
+    postdata = qs.stringify({
+      name      :jsondb[i].name,
+      state     :jsondb[i].state,
+      custom_fields_shopFlg:jsondb[i].shopFlg,
+      webSite:jsondb[i].webSite,
+      custom_fields_sourceOfInformation:jsondb[i].sourceOfInformation,
+      phone_number:jsondb[i].phone_number,
+      latitude:jsondb[i].latitude,
+      longitude:jsondb[i].longitude,
+      address   :jsondb[i].address
+    });
+
+
+    postToACS(postdata);
+
+  }
+
 
 function postToACS(postdata){
   //Initialise the variable that will store the response

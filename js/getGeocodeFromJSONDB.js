@@ -33,7 +33,7 @@ var timerId = setInterval(function(){
   if(count > jsondb.length-1){
     console.log("parse done. number of shop is :" + shopData.length);
     console.log("shopdata :" + shopData);
-    fs.writeFileSync("js/minohWithGeocode.json", shopData);
+    // fs.writeFileSync("js/coedoWithGeocode.json", shopData);
     clearInterval(timerId);
   }
 
@@ -56,23 +56,21 @@ function fetch(options,jsondb){
           // console.log(jsondb.shopname);
           console.log(JSON.stringify(
               {
-                "shopname":jsondb.shopname,
-                "telephone":jsondb.telephone,
+                "name":jsondb.shopname,
+                "phone_number":jsondb.telephone,
                 "address":jsondb.address,
-                "beerName":jsondb.beerName,
-                "lat":result.result.coordinate_tokyo[0].lat,
-                "lng:":result.result.coordinate_tokyo[0].lng
+                "latitude":result.result.coordinate[0].lat[0],
+                "longitude:":result.result.coordinate[0].lng[0]
               }
-          ) + "\n");
+          ) + ",");
           shopData.push(
             JSON.stringify(
               {
-                "shopname":jsondb.shopname,
-                "telephone":jsondb.telephone,
+                "name":jsondb.shopname,
+                "phone_number":jsondb.telephone,
                 "address":jsondb.address,
-                "beerName":jsondb.beerName,
-                "lat":result.result.coordinate_tokyo[0].lat,
-                "lng:":result.result.coordinate_tokyo[0].lng
+                "latitude":result.result.coordinate[0].lat[0],
+                "longitude:":result.result.coordinate[0].lng[0]
               }
             ) + "\n"
           );

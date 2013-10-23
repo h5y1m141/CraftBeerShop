@@ -5,7 +5,7 @@ options,loginData,loginOptions,loginRequest,loginID,loginPasswd
 
 file = fs.readFileSync("js/config.json");
 json = JSON.parse(file.toString());
-apiKey = json.apiKey.development;
+apiKey = json.apiKey.production;
 idList = [];
 
 loginID = json.login;
@@ -29,14 +29,18 @@ loginOptions = {
 
 
 placeSearch(function(idList){
-  console.log(idList);
-  deleteACSData(idList[0]);
+
+  for(var i=0;i<idList.length;i++){
+    deleteACSData(idList[i]);
+  }
+  // console.log(idList);
+  // deleteACSData(idList[0]);
 });
 
 
 function placeSearch(callback){
   body='';
-  path = '/v1/places/search.json?per_page=2&key=' + apiKey,
+  path = '/v1/places/search.json?per_page=100&key=' + apiKey,
   targetURL = "https://api.cloud.appcelerator.com" + path;
   request = https.request(targetURL, function(response) {
     response.on('data', function (chunk) {
@@ -46,6 +50,7 @@ function placeSearch(callback){
        _result = JSON.parse(body);
       places = _result.response.places;
       for(var i=0;i<places.length;i++){
+        console.log(places);
         idList.push(places[i].id);
         console.log("GET SHOP DATA. name is:" + places[i].name);
       }

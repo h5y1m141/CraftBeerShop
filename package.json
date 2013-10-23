@@ -8,5 +8,9 @@
   },
   "repository": "",
   "author": "Hiroshi Oyamada",
-  "license": "BSD"
+  "license": "BSD",
+ "dependencies": {
+    "cron": "*",
+    "xml2js":"*"
+  }
 }
